@@ -1,3 +1,4 @@
+```
 import * as crypto from 'crypto';
 
 class Block {
@@ -85,3 +86,4 @@ myBlockchain.addBlock(new Block(2, '11/10/2023', { amount: 10 }));
 
 console.log(JSON.stringify(myBlockchain, null, 2));
 console.log('Is blockchain valid?', myBlockchain.isChainValid());
+```
